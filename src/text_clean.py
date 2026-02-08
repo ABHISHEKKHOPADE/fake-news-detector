@@ -34,29 +34,7 @@ def clean_text(
     remove_non_ascii: bool = True,
     collapse_whitespace: bool = True,
 ) -> str:
-    """
-    Clean a single text string with sensible defaults.
-
-    Parameters
-    ----------
-    text : str | None
-        Input text to normalize. Non-string values are treated as empty.
-    lowercase : bool
-        Convert to lowercase.
-    remove_urls : bool
-        Remove URL-like substrings.
-    remove_emails : bool
-        Remove email-like substrings.
-    remove_non_ascii : bool
-        Strip non-ASCII characters.
-    collapse_whitespace : bool
-        Replace runs of whitespace with a single space and strip ends.
-
-    Returns
-    -------
-    str
-        The normalized text (possibly empty string).
-    """
+    
     if not isinstance(text, str):
         return ""
 
