@@ -3,7 +3,14 @@
 Detect fake vs real news articles using Machine Learning, TF-IDF, and Logistic Regression, complete with training scripts, evaluation charts, and an interactive Streamlit web app.
       
 ---
+👤 Author
+Abhishek Khopade
 
+Aspiring ML Engineer | MLOps | LLMOps
+
+🔗 GitHub: https://github.com/ABHISHEKKHOPADE
+
+----------------
 ## Table of Contents
 - [Overview](#-overview)
 - [Author](#-author)
