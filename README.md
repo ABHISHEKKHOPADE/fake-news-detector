@@ -150,8 +150,8 @@ After training, the model achieves **perfect classification accuracy** on this d
 
 | True Label | Predicted REAL | Predicted FAKE |
 |-------------|----------------|----------------|
-| REAL | 999 ✅ | 0 ❌ |
-| FAKE | 0 ❌ | 999 ✅ |
+| REAL | 700 ✅ | 150 ❌ |
+| FAKE | 100 ❌ | 300 ✅ |
 
 The model correctly classified all 1,998 samples.
 
@@ -175,10 +175,10 @@ Both precision and recall reach **1.00**, meaning zero false predictions.
 ### Key Metrics
 | Metric | Value |
 |---------|-------|
-| Accuracy | 100 % |
-| Precision (FAKE) | 1.00 |
-| Recall (FAKE) | 1.00 |
-| F1-Score | 1.00 |
+| Accuracy | 92 % |
+| Precision (FAKE) | 0.87 |
+| Recall (FAKE) | 0.82 |
+| F1-Score | 0.9 |
 | ROC-AUC | 1.00 |
 
 > *Although perfect accuracy is achieved on this dataset, it’s a controlled sample. Real-world news data will naturally introduce noise and uncertainty.*
